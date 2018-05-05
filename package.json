@@ -1,6 +1,6 @@
 {
   "name": "react-native-cloudinary-image-display",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Native Cloudinary Image Display",
   "main": "dist/index.js",
   "watch": {
