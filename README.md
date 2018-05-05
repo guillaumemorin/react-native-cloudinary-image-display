@@ -3,7 +3,7 @@
 </h1>
 <p align="center">
 	<a href="https://badge.fury.io/js/react-native-cloudinary-image-display"><img src="https://badge.fury.io/js/react-native-cloudinary-image-display.svg" alt="npm version" height="18"></a>
-    <a href='https://semaphoreci.com/guillaumemorin/react-native-cloudinary-image-display'> <img src='https://semaphoreci.com/api/v1/guillaumemorin/react-native-cloudinary-image-display/branches/master/badge.svg' alt='Build Status'></a>
+    <a href='https://semaphoreci.com/guillaumemorin/react-native-cloudinary-image-display'> <img src='https://semaphoreci.com/api/v1/guillaumemorin/react-native-cloudinary-image-display/branches/master/shields_badge.svg' alt='Build Status'></a>
 </p>
 
 ## Installation
@@ -17,21 +17,21 @@ In order to properly use this library you have to provide it with a few configur
 
 ### Required:
 
-### `cloud_name`
+#### `cloud_name`
 The cloudinary cloud name associated with your Cloudinary account.
 
-### `imageId`
+#### `imageId`
 Id of the uploaded image.
 
-### `width`
+#### `width`
 Original width of the uploaded image.
 
-### `height`
+#### `height`
 Height of the uploaded image.
 
 ### Optional:
 
-### `options`
+#### `options`
 In addition to the mandatory cloud_name identifier, there are also a number of optional parameters you may want to define.
 Please refer to [Cloudinary Documentation](https://cloudinary.com/documentation/solution_overview#configuration_parameters) for more information on these parameters.
 
@@ -46,16 +46,14 @@ if no options object is set, following default options will be used:
 }
 ```
 
-### `style`
+#### `style`
 Custom style to apply to Image.
 
-### `borderRadius`
+#### `borderRadius`
 Border radius to apply to Image
 
-### `sideMargin`
+#### `sideMargin`
 Side margin to apply to Image
-
-
 
 ## Usage
 ```
