@@ -6,6 +6,13 @@
     <a href='https://semaphoreci.com/guillaumemorin/react-native-cloudinary-image-display'> <img src='https://semaphoreci.com/api/v1/guillaumemorin/react-native-cloudinary-image-display/branches/master/shields_badge.svg' alt='Build Status'></a>
 </p>
 
+<div align="center">
+	<p align="center">
+		react-native-cloudinary-image-display can be used to properly display Image from cloudinary according to device dimensions.
+	</p>
+	<img src="screenshot.png" width="350" />
+</div>
+
 ## Installation
 ```
 npm i --save react-native-cloudinary-image-display
