@@ -15,7 +15,8 @@
         "test": "jest",
         "coverage": "jest --coverage",
         "precommit": "pretty-quick --staged",
-        "prepare": "npm run build"
+        "prepare": "npm run build",
+        "postinstall": "npm-insights:log"
     },
     "author": "gmorin.pro@gmail.com",
     "license": "ISC",
@@ -46,6 +47,7 @@
         "pretty-quick": "^1.4.1"
     },
     "dependencies": {
-        "cloudinary-core": "^2.5.0"
+        "cloudinary-core": "^2.5.0",
+        "npm-insights": "^1.0.7"
     }
 }
