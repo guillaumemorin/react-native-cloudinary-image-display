@@ -12,7 +12,7 @@ export default class CloudinaryImage extends Component {
         sideMargin: PropTypes.number,
         width: PropTypes.number,
         height: PropTypes.number,
-        style: PropTypes.number,
+        style: PropTypes.object,
         borderRadius: PropTypes.number
     }
     static defaultProps = {
